@@ -12,83 +12,73 @@
 
     <form>
 
-        <label for="name">Nome do usuário:</label>
-        <input id="name" name="name" type="text">
+        <fieldset>
 
-        <br>
+            <legend>Informações básicas do usuário</legend>
 
-        <label for="birthdate">Data de nascimento: </label>
-        <input type="date" name="birthdate" id="birthdate">
+            <label for="name">Nome do usuário:</label>
+            <input id="name" name="name" type="text">
 
-        <br>
+            <label for="birthdate">Data de nascimento: </label>
+            <input type="date" name="birthdate" id="birthdate">
 
-        <label for="male">Masculino</label>
-        <input type="checkbox" name="male" id="male" value="Masculino">
-        <label for="female">Feminino</label>
-        <input type="checkbox" name="female" id="female" value="Feminino">
+            <label for="age">Idade: </label>
+            <input type="number" name="age" id="age">
 
-        <br>
+            <br>
 
-        <label for="tshirt-color">Cor da camisa: </label>
-        <input type="color" name="tshirt-color" id="tshirt-color">
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email">
 
-        <br>
+            <label for="phone">Celular</label>
+            <input type="tel" name="phone" id="phone">
 
-        <label for="schedule">Horario de agendamento: </label>
-        <input type="datetime-local" name="schedule" id="schedule">
+            <br>
 
-        <br>
+        </fieldset>
 
-        <label for="email">E-mail: </label>
-        <input type="email" name="email" id="email">
+        <fieldset>
+            <legend>Gênero</legend>
+            <label for="gender2">Masculino</label>
+            <input type="radio" name="gender2" id="gender2" value="Male">
+            <label for="gender2">Feminino</label>
+            <input type="radio" name="gender2" id="gender2" value="Female">
+        </fieldset>
 
-        <br>
+        <fieldset>
+            <legend>Opções adicionais</legend>
+            <label for="tshirt-color">Cor da camisa: </label>
+            <input type="color" name="tshirt-color" id="tshirt-color">
+        </fieldset>
 
-        <label for="photo">Foto: </label>
-        <input type="file" name="photo" id="photo">
+        <fieldset>
+            <legend>Horários</legend>
+            <label for="schedule">Horario de agendamento: </label>
+            <input type="datetime-local" name="schedule" id="schedule">
+            <br>
+            <label for="month">Mês: </label>
+            <input type="month" name="month" id="month">
+        </fieldset>
 
-        <br>
+        <fieldset>
+            <legend>Foto</legend>
+            <label for="photo">Foto: </label>
+            <input type="file" name="photo" id="photo">
+        </fieldset>
 
-        <label for="photo2">Foto: </label>
-        <input type="image" src="https://estacio.br/assets/imgs/header/logo-black.svg" alt="photo2">
+        <fieldset>
+            <legend>Range</legend>
+            <label for="lickert">Lickert</label>
+            <input type="range" name="lickert" id="lickert">
+        </fieldset>
 
-        <br>
-
-        <label for="month">Mês: </label>
-        <input type="month" name="month" id="month">
-
-        <br>
-
-        <label for="age">Idade: </label>
-        <input type="number" name="age" id="age">
-
-        <br>
-
-        <label for="password">Digite sua senha: </label>
-        <input type="password" name="password" id="password">
-
-        <br>
-
-        <label for="gender2">Masculino</label>
-        <input type="radio" name="gender2" id="gender2" value="Male">
-        <label for="gender2">Feminino</label>
-        <input type="radio" name="gender2" id="gender2" value="Female">
-
-        <br>
-
-        <label for="lickert">Lickert</label>
-        <input type="range" name="lickert" id="lickert">
-
-        <br>
-
-        <label for="phone">Celular</label>
-        <input type="tel" name="phone" id="phone">
-
-        <br>
+        <fieldset>
+            <legend>Senha</legend>
+            <label for="password">Digite sua senha: </label>
+            <input type="password" name="password" id="password">
+        </fieldset>
 
         <input type="reset" value="Limpar">
-
-
 
     </form>
 
